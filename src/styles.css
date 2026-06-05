@@ -68,7 +68,7 @@ img {
 }
 
 .slide {
-  --slide-bg: url("/assets/corn-field-background.png");
+  --slide-bg: url("./assets/corn-field-background.png");
   position: relative;
   scroll-margin-top: 86px;
   padding: 100px 0;
@@ -122,39 +122,39 @@ img {
 }
 
 .cover-slide {
-  --slide-bg: url("/assets/corn-field-background.png");
+  --slide-bg: url("./assets/corn-field-background.png");
 }
 
 .results-slide {
-  --slide-bg: url("/assets/slide-results-background.png");
+  --slide-bg: url("./assets/slide-results-background.png");
 }
 
 .process-slide {
-  --slide-bg: url("/assets/slide-process-background.png");
+  --slide-bg: url("./assets/slide-process-background.png");
 }
 
 .theory-slide {
-  --slide-bg: url("/assets/slide-theory-background.png");
+  --slide-bg: url("./assets/slide-theory-background.png");
 }
 
 .solution-slide {
-  --slide-bg: url("/assets/slide-solution-background.png");
+  --slide-bg: url("./assets/slide-solution-background.png");
 }
 
 .design-slide {
-  --slide-bg: url("/assets/slide-design-background.png");
+  --slide-bg: url("./assets/slide-design-background.png");
 }
 
 .equipment-slide {
-  --slide-bg: url("/assets/slide-equipment-background.png");
+  --slide-bg: url("./assets/slide-equipment-background.png");
 }
 
 .economics-slide {
-  --slide-bg: url("/assets/slide-economics-background.png");
+  --slide-bg: url("./assets/slide-economics-background.png");
 }
 
 .team-slide {
-  --slide-bg: url("/assets/slide-team-background.png");
+  --slide-bg: url("./assets/slide-team-background.png");
 }
 
 .slide-topline {

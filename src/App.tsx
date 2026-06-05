@@ -26,8 +26,10 @@ import {
   detailedSpecs,
 } from './data/projectContent';
 
-const designImage = '/assets/distillation-column-original.png';
-const graphImage = '/assets/mccabe-thiele-diagram.png';
+import designImage from './assets/distillation-column-original.png';
+import graphImage from './assets/mccabe-thiele-diagram.png';
+import renderImage from './assets/distillation-unit-render.png';
+import detailImage from './assets/distillation-unit-detail.png';
 
 function App() {
   const [imageOpen, setImageOpen] = useState(false);
@@ -54,10 +56,10 @@ function App() {
   ]);
 
   const galleryImages = [
-    { url: '/assets/distillation-unit-render.png', alt: 'Industrial Distillation Plant 3D Render' },
-    { url: '/assets/distillation-column-original.png', alt: 'Proposed Distillation Column Technical Drawing' },
-    { url: '/assets/distillation-unit-detail.png', alt: 'Distillation Column Stainless Steel Piping Detail' },
-    { url: '/assets/mccabe-thiele-diagram.png', alt: 'Supporting McCabe-Thiele Calculations Graph' },
+    { url: renderImage, alt: 'Industrial Distillation Plant 3D Render' },
+    { url: designImage, alt: 'Proposed Distillation Column Technical Drawing' },
+    { url: detailImage, alt: 'Distillation Column Stainless Steel Piping Detail' },
+    { url: graphImage, alt: 'Supporting McCabe-Thiele Calculations Graph' },
   ];
 
   const prevImage = () => {
