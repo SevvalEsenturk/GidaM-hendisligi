@@ -30,6 +30,7 @@ import designImage from './assets/distillation-column-original.png';
 import graphImage from './assets/mccabe-thiele-diagram.png';
 import renderImage from './assets/distillation-unit-render.png';
 import detailImage from './assets/distillation-unit-detail.png';
+import actualImage from './assets/distillation-unit-actual.jpg';
 
 function App() {
   const [imageOpen, setImageOpen] = useState(false);
@@ -56,6 +57,7 @@ function App() {
   ]);
 
   const galleryImages = [
+    { url: actualImage, alt: 'Actual Distillation Column Installation' },
     { url: renderImage, alt: 'Industrial Distillation Plant 3D Render' },
     { url: designImage, alt: 'Proposed Distillation Column Technical Drawing' },
     { url: detailImage, alt: 'Distillation Column Stainless Steel Piping Detail' },
